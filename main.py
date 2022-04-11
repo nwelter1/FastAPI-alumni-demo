@@ -8,4 +8,4 @@ def home():
 
 @app.get('/{name}')
 def addThem(name: str):
-    return {'sum': name}
+    return {'name': name}
